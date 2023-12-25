@@ -1,0 +1,69 @@
+#body {
+    font-family: "Comic Sans MS", sans-serif;
+    text-align: center;
+    box-sizing: border-box;
+    width: 99%;
+    margin: 5px;
+    font-size: 2vw;
+    background-color: rgb(248, 214, 162);
+}
+
+.gameStart {
+    display: flex;
+    gap: 10px;
+    flex-direction: row;
+    flex-wrap: wrap;
+    border-radius: 5px;
+    align-content: space-between;
+    align-items: center;
+  justify-content: center;
+}
+
+.gamePairs {
+    background-color: rgba(5, 182, 241, 0.795);
+    padding: 10px;
+    font-size: 1.4vw;
+    border-radius: 10px;
+    border-width: 1px;
+    border-style:solid;
+}
+
+button:hover {
+    background-color: #00ff00;
+    font-size: 1.4vw;
+    border-radius: 10px;
+    cursor: pointer;
+}
+  
+ button {
+     font-size: 1vw;
+}
+  
+ #header {
+     font-size: 2.5vw;
+     margin: 0;
+}
+ 
+ p {
+     margin: 0;
+}
+
+#bulkInfo {
+    font-size: 1.2vw;
+}
+
+#makeMany {
+    font-size: 1.2vw;
+}
+
+input[type="text"] {
+    font-size: 1.2vw;
+}
+
+input[type="number"] {
+    font-size: 1.2vw;
+}
+
+input[type="password"] {
+    font-size: 1.2vw;
+}
